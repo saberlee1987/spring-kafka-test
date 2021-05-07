@@ -1,0 +1,14 @@
+server:
+  port: 8084
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      testTopic: testTopic
+      studentTopic: studentTopic
+      personTopic: personTopic
+    groups:
+      testGroupId: testGroupId
+      studentGroupId: studentGroupId
+      personGroupId: personGroupId
